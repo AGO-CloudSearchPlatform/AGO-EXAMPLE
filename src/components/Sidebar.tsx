@@ -1,4 +1,4 @@
-import SWM from 'public/swm.png'
+import SWM from '../public/swm.png'
 
 function Sidebar() {
   return (
