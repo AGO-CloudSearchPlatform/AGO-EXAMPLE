@@ -1,5 +1,22 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+  "git.ignoreMissingGitWarning": true,
+  "editor.formatOnPaste": true,
+  "terminal.explorerKind": "integrated",
+  "code-runner.runInTerminal": true,
+  "breadcrumbs.enabled": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'D2Coding', Consolas",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.includeLanguages": { 
+    "plaintext": "javascript" 
   }
 }
